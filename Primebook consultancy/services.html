@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primebook Consulting Services</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <style>
+      .services-section {
+        padding: 4rem 2rem;
+        background-color: #f9f9f9;
+      }
+  
+      .service-card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+  
+      .service-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      }
+  
+      .service-icon {
+        font-size: 3rem;
+        color: #1a4d7d;
+      }
+  
+      .industries-section {
+        padding: 4rem 2rem;
+        background: linear-gradient(135deg, #1a4d7d, #4ca1af);
+        color: white;
+        text-align: center;
+      }
+  
+      .industries-section h2 {
+        margin-bottom: 2rem;
+      }
+  
+      .industries-section .industry-icon {
+        font-size: 2rem;
+        color: #ffce00;
+        margin-bottom: 0.5rem;
+      }
+  
+      .benefits-section {
+        padding: 4rem 2rem;
+      }
+  
+      .benefit {
+        display: flex;
+        align-items: center;
+        margin-bottom: 1.5rem;
+      }
+  
+      .benefit-icon {
+        font-size: 2rem;
+        color: #1a4d7d;
+        margin-right: 1rem;
+      }
+
+
+
+
+      .hero-section {
+      background: linear-gradient(135deg, #4ca1af, #c4e0e5);
+      color: #fff;
+      padding: 4rem 2rem;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero-section h1 {
+      font-size: 3rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+
+    .hero-section p {
+      font-size: 1.25rem;
+      margin-bottom: 2rem;
+    }
+
+    .hero-section .cta-btn {
+      background-color: #ffce00;
+      color: #1a4d7d;
+      font-weight: bold;
+      padding: 0.75rem 2rem;
+      border: none;
+      border-radius: 50px;
+      transition: background-color 0.3s ease;
+    }
+
+    .hero-section .cta-btn:hover {
+      background-color: #ffc107;
+    }
+
+    .hero-section::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: url('https://via.placeholder.com/1500x500') no-repeat center/cover;
+      opacity: 0.3;
+      z-index: -1;
+    }
+    </style>
+
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Primebook Consulting</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <!-- Hero Section -->
+<section class="hero-section">
+    <div class="container">
+      <h1>Discover Our Expertise</h1>
+      <p>Primebook Consulting Services offers tailored solutions in bookkeeping, accounting, payroll, and HR to help your business thrive.</p>
+      <a href="#services" class="cta-btn">Explore Our Services</a>
+    </div>
+  </section>
+ <!-- Services Section -->
+<section class="services-section">
+    <div class="container">
+      <h2 class="text-center mb-5">Our Services</h2>
+      <div class="row">
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="card service-card text-center p-4">
+            <div class="service-icon mb-3">
+              <i class="bi bi-calculator"></i>
+            </div>
+            <h5 class="card-title">Bookkeeping</h5>
+            <p class="card-text">Accurate and efficient bookkeeping services tailored to your needs.</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="card service-card text-center p-4">
+            <div class="service-icon mb-3">
+              <i class="bi bi-bar-chart"></i>
+            </div>
+            <h5 class="card-title">Accounting</h5>
+            <p class="card-text">Expert accounting solutions to keep your business finances on track.</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="card service-card text-center p-4">
+            <div class="service-icon mb-3">
+              <i class="bi bi-cash-stack"></i>
+            </div>
+            <h5 class="card-title">Payroll</h5>
+            <p class="card-text">Streamlined payroll processing with compliance and accuracy.</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="card service-card text-center p-4">
+            <div class="service-icon mb-3">
+              <i class="bi bi-people"></i>
+            </div>
+            <h5 class="card-title">HR Solutions</h5>
+            <p class="card-text">Comprehensive HR solutions to manage your workforce effectively.</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Industries Section -->
+  <section class="industries-section">
+    <div class="container">
+      <h2>Industries We Serve</h2>
+      <div class="row justify-content-center">
+        <div class="col-6 col-md-3">
+          <div class="mb-4">
+            <div class="industry-icon">
+              <i class="bi bi-cart"></i>
+            </div>
+            <p>Retail</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="mb-4">
+            <div class="industry-icon">
+              <i class="bi bi-cpu"></i>
+            </div>
+            <p>IT</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="mb-4">
+            <div class="industry-icon">
+              <i class="bi bi-heart-pulse"></i>
+            </div>
+            <p>Healthcare</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Benefits Section -->
+  <section class="benefits-section">
+    <div class="container">
+      <h2 class="text-center mb-5">Benefits of Working With Us</h2>
+      <div class="benefit">
+        <div class="benefit-icon">
+          <i class="bi bi-check-circle"></i>
+        </div>
+        <p>Customized solutions tailored to your business needs.</p>
+      </div>
+      <div class="benefit">
+        <div class="benefit-icon">
+          <i class="bi bi-lightning"></i>
+        </div>
+        <p>Streamlined processes for increased efficiency.</p>
+      </div>
+      <div class="benefit">
+        <div class="benefit-icon">
+          <i class="bi bi-people"></i>
+        </div>
+        <p>Expert team dedicated to your success.</p>
+      </div>
+      <div class="benefit">
+        <div class="benefit-icon">
+          <i class="bi bi-shield-check"></i>
+        </div>
+        <p>Compliance with all financial and HR regulations.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- <button class="btn btn-secondary">Contact Us</button> -->
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+  
+    
+        <!-- Footer Section -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h5>Quick Links</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Follow Us</h5>
+                        <div class="social-icons">
+                            <a href="#" style="margin-right: 15px;"><i class="bi bi-linkedin" style="font-size: 24px; color: #0077b5;"></i></a>
+                            <a href="#" style="margin-right: 15px;"><i class="bi bi-twitter" style="font-size: 24px; color: #1da1f2;"></i></a>
+                            <a href="#"><i class="bi bi-tiktok" style="font-size: 24px; color: #000000;"></i></a>
+                        </div>
+
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Newsletter</h5>
+                        <form class="newsletter">
+                            <input type="email" placeholder="Your email address">
+                            <button type="submit">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

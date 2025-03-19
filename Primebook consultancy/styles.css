@@ -1,0 +1,67 @@
+        /* Testimonials Section */
+        #testimonials {
+            background: linear-gradient(135deg, #007BFF, #28a745);
+            color: white;
+            padding: 60px 0;
+            position: relative;
+        }
+        #testimonials .carousel-item {
+            text-align: center;
+        }
+        #testimonials .carousel-item h5 {
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        #testimonials .carousel-item p {
+            font-style: italic;
+            margin: 15px 0;
+        }
+        #testimonials .carousel-indicators [data-bs-target] {
+            background-color: white;
+            width: 10px;
+            height: 10px;
+        }
+
+        /* Footer Section */
+        footer {
+            background: #222;
+            color: white;
+            padding: 40px 0;
+        }
+        footer a {
+            color: #28a745;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        footer .social-icons i {
+            font-size: 24px;
+            margin: 0 10px;
+            color: white;
+        }
+        footer .social-icons i:hover {
+            color: #28a745;
+        }
+        footer .newsletter input[type="email"] {
+            border: none;
+            border-radius: 20px;
+            padding: 10px 15px;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        footer .newsletter button {
+            background: #28a745;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 20px;
+        }
+        footer .newsletter button:hover {
+            background: #007BFF;
+        }
+
+
+
+
+        
